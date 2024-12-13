@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyd
+
+# Virtual Environment
+ProcessMonitorPythonVenv/
+
+# Build
+build/
+*.o
+*.obj
+*.dll
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Windows
+Thumbs.db
+Desktop.ini
