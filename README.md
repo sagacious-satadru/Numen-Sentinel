@@ -82,18 +82,90 @@ double ProcessManager::calculateCPUUsage(uint32_t pid) {
 }
 ```
 
-# 🎓 Learning Outcomes
-This project demonstrates expertise in:
+## 🎓 Learning Outcomes & Technical Expertise
 
-- Systems programming
-- Multi-language application architecture
-- GUI development
-- Performance optimization
-- Windows API integration
-- Modern C++ and Python practices
+This project demonstrates comprehensive expertise across multiple domains of software engineering. Each area represents critical skills valued in modern software development:
+
+### 💻 Systems Programming
+Our implementation dives deep into operating system internals, showcasing advanced systems programming concepts:
+- Direct interaction with Windows process management systems
+- Low-level memory management and resource handling
+- System-level API integration for process metrics collection
+- Thread management and synchronization techniques
+- Understanding of process hierarchies and system resource allocation
+
+The project exemplifies this through our `ProcessManager` class, which efficiently interfaces with the Windows kernel to gather detailed process information while maintaining system stability and security.
+
+### 🔄 Multi-language Application Architecture
+The project demonstrates sophisticated multi-language integration:
+- Seamless bridging between C++ and Python using pybind11
+- Efficient data transfer between languages with minimal overhead
+- Language-specific optimizations (C++ for performance, Python for UI)
+- Cross-language exception handling and resource management
+- Architecture design that leverages each language's strengths
+
+The hybrid approach in this project shows real-world expertise in designing systems that combine multiple programming paradigms while maintaining code quality and performance.
+
+### 🎨 GUI Development
+The application showcases modern GUI development practices:
+- Implementation of responsive, user-friendly interfaces using Qt/PySide6
+- Real-time data visualization and updates
+- Event-driven programming patterns
+- Thread-safe UI updates
+- Custom widget development and styling
+- Layout management and dynamic UI adjustments
+
+The GUI implementation demonstrates understanding of both technical requirements and user experience considerations in modern application development.
+
+### ⚡ Performance Optimization
+The project implements various performance optimization techniques:
+- Efficient process data collection with minimal system impact
+- Memory-optimized data structures and algorithms
+- Smart caching mechanisms for process information
+- Throttled UI updates to balance responsiveness and resource usage
+- Profile-guided optimization decisions
+
+Our implementation shows practical application of performance optimization principles in a real-world scenario.
+
+### 🔌 Windows API Integration
+Deep integration with Windows systems demonstrates expertise in:
+- Windows Process API utilization
+- Performance Data Helper (PDH) implementation
+- Security and access control management
+- System resource monitoring
+- Native API error handling and recovery
+
+The project shows practical knowledge of Windows system programming and API integration in production-quality software.
+
+### 📚 Modern C++ and Python Practices
+Implementation follows current best practices in both languages:
+
+**Modern C++:**
+- RAII principle implementation for resource management
+- Smart pointer usage for memory safety
+- Move semantics for efficient object handling
+- Template metaprogramming techniques
+- Exception safety guarantees
+
+**Modern Python:**
+- Type hints and static type checking
+- Context managers for resource handling
+- Asyncio patterns for concurrent operations
+- Modern package management and virtual environments
+- Pythonic code design principles
+
+### 🔍 Real-World Application
+This project serves as a comprehensive demonstration of software engineering expertise by:
+- Solving real-world system monitoring needs
+- Implementing production-grade error handling
+- Following industry-standard coding practices
+- Maintaining code quality and documentation
+- Considering security implications in system-level operations
+
+Each of these areas represents crucial knowledge for modern software development, particularly in systems programming and application development roles. The project serves as a practical portfolio piece demonstrating the ability to create professional-grade software while handling complex technical challenges.
 
 # 🤝 Contributing
-Contributions are welcome! Please read our contributing guidelines and code of conduct.
+Contributions are welcome! 
 
 # 📝 License
 This project is licensed under the MIT License.
