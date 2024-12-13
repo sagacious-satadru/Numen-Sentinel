@@ -81,6 +81,74 @@ double ProcessManager::calculateCPUUsage(uint32_t pid) {
     // Per-core normalization
 }
 ```
+# Memory Management
+Employs modern C++ practices:
+
+- RAII for resource handling
+- Smart pointers for memory safety
+- Move semantics for efficient data transfer
+
+## Performance Optimizations
+
+   1. Snapshot Optimization
+   
+   - Efficient process enumeration
+   - Minimal system API calls
+   - Optimized data structures
+   
+   2. GUI Updates
+
+   - Throttled refresh rates
+   - Efficient data transfer
+   - Minimal redraws
+     
+## 🎯 Best Practices
+   - Modern C++ (17) Features
+   
+      - Smart pointers
+      - RAII principles
+      - Move semantics
+      - Template metaprogramming
+   
+   - Python Best Practices
+   
+      - Type hints
+      - Context managers
+      - Generator expressions
+      - Modern async patterns
+
+## ⚗️ Code Quality
+
+   - Comprehensive error handling
+   - Thread safety
+   - Memory leak prevention
+   - Performance optimization
+
+## 🔧 Technical Requirements
+   - Windows 11/10
+   - Python 3.11+
+   - C++17 compatible compiler
+   - CMake 3.15+
+   - Qt/PySide6
+## 🚀 Building from Source
+```bash
+# Clone repository
+git clone https://github.com/sagacious-satadru/Numen-Sentinel.git
+cd Numen-Sentinel
+
+# Set up Python virtual environment
+python -m venv ProcessMonitorPythonVenv
+source ProcessMonitorPythonVenv/Scripts/activate  # Windows
+pip install -r requirements.txt
+
+# Build C++ components
+mkdir build && cd build
+cmake ..
+cmake --build . --config Release
+
+# Run application
+python python/main.py
+```
 
 ## 🎓 Learning Outcomes & Technical Expertise
 
