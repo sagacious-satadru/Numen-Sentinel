@@ -88,7 +88,7 @@ Employs modern C++ practices:
 - Smart pointers for memory safety
 - Move semantics for efficient data transfer
 
-## Performance Optimizations
+## 🚄 Performance Optimizations
 
    1. Snapshot Optimization
    
